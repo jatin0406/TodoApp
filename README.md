@@ -1,2 +1,5 @@
 Simple Todo app with add, search function.
-made by love from Jatin Singh Chauhan
+<br>
+<a>https://todoapp-by-jatin.herokuapp.com/#/signup</a>
+<br>
+<p align="center"> Made with ❤️ by Jatin Singh Chauhan</a></p>
