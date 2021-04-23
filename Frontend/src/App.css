@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  box-shadow: 0 0 11px 3px rgba(128, 128, 128, 0.5);
+  position: sticky;
+  top: 0;
+  background-color: #202020;
+  /* background-color: brown; */
+}
+
+header .left a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: inherit;
+  color: #3498db; 
+}
+
+header .bt_signup,
+header .bt_signin,
+header .logout {
+  background-color: #3498db;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: inherit;
+  margin-left: 0.5rem;
+}
+
+/* Todos */
+.todos {
+  padding: 1rem;
+}
+
+.todos .search {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.todos .mark_remove_bts button {
+  margin: 0.3rem;
+}
+
+.todos .data {
+  padding: 1rem;
+}
+
+.todos .add .title {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.todos .add {
+  width: 300px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  /* width: fit-content; */
+  margin: 1rem auto;
+  /* padding: 1rem; */
+  /* border-radius: 15px; */
+  background-color: #191919;
+  box-shadow: 16px 18px gray;
+}
+
+.todos .add input {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.todos .add button {
+  margin: 0.3rem 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #3498db;
+
+}
+.todos .add button:hover {  
+  background-color: #2ecc71;
+
+}
+.todos .todo {
+  background-color: whitesmoke;
+  margin: 0.5rem auto;
+  padding: 0.7rem;
+  border-radius: 7px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos .todo .body {
+  color: rgba(79,70,229);
+  font-style: italic;
+}
+
+.todos .todo .time {
+  color: purple;
+  font-size: 0.8rem;
+  margin: 0.3rem;
+}
+
+.todos .todo .edit {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.todos .todo .delete {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.todos .mark_remove_bts button{
+  color: #fff;
+  font-weight: 200;
+  background-color: #3498db;
+}
+.todos .mark_remove_bts button:hover {  
+  background-color: #2ecc71;
+
+}
+
+
+
+
+
+
+
+
+.login{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 16px 18px gray;
+}
+.login .title{
+  
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.login input[type = "text"],.login input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;  
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  /* border-radius: 24px; */
+  transition: 0.25s;
+}
+.login input[type = "text"]:hover:focus,
+.login input[type = "password"]:hover:focus{
+  width: 240px; 
+  box-shadow: 2px 4px #3498db;
+  transition: ease-in-out;
+}
+.login button{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  /* border-radius: 24px; */
+  transition: 0.25s;
+  cursor: pointer;
+}
+.login button:hover{
+  background: #2ecc71;
+}
